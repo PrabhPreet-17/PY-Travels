@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "serve": "deno --watch --allow-env --allow-ffi --allow-net=0.0.0.0:8000 --allow-read=. main.js"
+  },
+  "imports": {
+    "@db/sqlite": "jsr:@db/sqlite@^0.13.0",
+    "@std/html": "jsr:@std/html@^1.0.5",
+    "@std/http": "jsr:@std/http@^1.0.25"
+  }
+}
